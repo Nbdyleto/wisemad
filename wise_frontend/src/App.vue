@@ -1,6 +1,6 @@
 <template>
 	<div class="flex flex-row">
-	<nav class="w-64 h-screen fixed bg-stone-900">
+	<nav class="w-64 h-screen fixed bg-zinc-900">
 		<div class="px-4 pt-8 pb-4">
 			<h1 class="text-white font-extrabold font-mono text-3xl">Wisemad</h1>
 		</div>
@@ -48,7 +48,7 @@
 				</div>
 				<div class="text-white text-sm font-bold self-center">Gerar plano de estudos</div>
             </button>
-			<div class="mt-3.5 mb-3 bg-stone-800 w-10 h-1"></div>
+			<div class="mt-3.5 mb-3 bg-zinc-800 w-10 h-1"></div>
 			<ul class="opacity-90 hover:opacity-100">
 				<li class="text-white text-sm">
 					<a href="#">Plano de Estudos 1 | 83%</a>
@@ -57,6 +57,16 @@
 		</div>
 	</nav>
 	<main class="flex-1 ml-64 ">
+		<header class="flex flex-row sticky justify-between h-30 w-full pl-4 pr-4 py-4 bg-zinc-900">
+			<div class="flex flex-row gap-3">
+				<svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+				<svg class="cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+			</div>
+			<button class="flex flex-row gap-1.5 opacity-80 hover:opacity-100">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.52 19c.64-2.2 1.84-3 3.22-3h6.52c1.38 0 2.58.8 3.22 3"/><circle cx="12" cy="10" r="3"/><circle cx="12" cy="12" r="10"/></svg>
+				<p class="text-white">leto-corcrop</p>
+			</button>
+		</header>
 		<RouterView />
 	</main>
 	</div>
