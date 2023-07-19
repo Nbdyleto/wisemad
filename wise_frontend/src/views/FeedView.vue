@@ -3,29 +3,30 @@
     <section>
         <div class="flex flex-row px-8 py-4">
             <!-- Quotes Card -->
-            <div class="flex-row w-1/2 h-1/2 font-mono">
+            <div class="w-1/2 h-1/2 font-mono">
                 <div class="m-4 text-lg font-semibold text-gray-800">Inspire-se, e...</div>
-                <div class="rounded-lg border-2 border-zinc-300 shadow-xl bg-zinc-200 overflow-hidden cursor-pointer group">
+                <div class="rounded-lg border-2 border-zinc-300 shadow-xl bg-zinc-200 overflow-hidden cursor-pointer">
                     <div class="m-4">
                         <div class="pt-12">
                             <p class="text-gray-800 font-semibold font-mono text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <a href="#" class="text-lg font-semibold text-zinc-500">@pussycat</a> <span class="text-2xl font-mono">-</span>
+                            <a href="#" class="text-lg font-semibold text-zinc-500">@pussycat</a> 
+                            <span class="text-2xl font-mono">-</span>
                         </div>
                     </div>
                     <div class="flex flex-grow items-end">
                         <div class="h-40 flex-grow bg-emerald-500">
-                            <img src="{% static 'profile/profile-16.png' %}" alt="Autor Image" class="gray-image-primary w-full h-full rounded-lg object-cover">
+                            <img src="" alt="Autor Image" class="gray-image-primary w-full h-full rounded-lg object-cover">
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Challenges Card -->
-            <div class="flex-row w-full font-mono">
+            <div class="w-full font-mono">
                 <div class="m-4 text-lg font-semibold text-gray-800">Desafie-se.</div>
                 <div class="flex flex-row gap-4 items-center rounded-lg border-2 border-zinc-300 shadow-lg duration-300 bg-zinc-200 m-4 p-4 cursor-pointer hover:shadow-zinc-300">
                     <div>
                         <div class="w-24 h-24 bg-rose-500 rounded-full">
-                            <img src="{% static 'profile/profile-17.png' %}" alt="Challenge Badge" class="gray-image-primary w-full h-full border-2 border-zinc-300 rounded-full object-cover">
+                            <img src="" alt="Challenge Badge" class="gray-image-primary w-full h-full border-2 border-zinc-300 rounded-full object-cover">
                         </div>
                     </div>
                     <div>
